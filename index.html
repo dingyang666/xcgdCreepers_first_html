@@ -17,10 +17,10 @@
 	<div id="bg2">
 	</div>
 	<a href="#sign-up" id="join-img">
-		<img src="http://qhqim4ma9.hn-bkt.clouddn.com/join_img.jpg">
+		<img src="images/signup.png">
 	</a>
 	<a href="#header" id="up-img">
-		<img src="http://qhqim4ma9.hn-bkt.clouddn.com/up_img.jpg">
+		<img src="images/top.png">
 	</a>
 	<div id="header">
 		<div class="container">
@@ -100,8 +100,6 @@
 					<td class="lab"><label for="name">姓名:</label></td>
 					<td><input type="text" id="name" name="name"></td>
 				</tr>
-				<td class="lab"><label for="place">籍贯:</label></td>
-				<td><input type="text" id="place" name="place"></td>
 				<tr>
 					<td class="lab"><label for="phone">电话:</label></td>
 					<td><input type="text" id="phone" name="phone"></td>
@@ -130,6 +128,7 @@
 									<select name="sex" id="sex">
 										<option value="male">男</option>
 										<option value="female">女</option>
+										<option value="other">其他</option>
 									</select>
 								</td>
 							</tr>
@@ -166,7 +165,9 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2" id="kaifaTd1"></td>
+					<td colspan="2" id="kaifaTd1">
+						<!--通过js动态生成select,name为select-->
+					</td>
 				</tr>
 				<tr>
 					<td colspan="2" class="textarea-lab"><label for="myself" >自我介绍:</label></td>
